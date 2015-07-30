@@ -12,6 +12,7 @@
 #include "IRReciever.hpp"
 #include "IRSignal.hpp"
 
+
 int IRReciever::init_gpio() {
 
 	this->ir_censor = new mraa::Gpio(this->censor_num);

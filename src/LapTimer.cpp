@@ -29,7 +29,7 @@ void LapTimer::restart(long t) {
 	this->lap += t;
 }
 
-long LapTimer::time() {
+unsigned long LapTimer::time() {
 	struct timeval tv;
 	gettimeofday(&tv, NULL);
 	return (tv.tv_usec - this->lap);

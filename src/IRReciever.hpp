@@ -21,8 +21,9 @@
 
 class IRReciever {
 private:
+
+	static const int censor_num = 46;
 	mraa::Gpio* ir_censor;
-	int censor_num = 46;
 
 public:
 

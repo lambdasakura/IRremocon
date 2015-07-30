@@ -16,7 +16,7 @@ class LapTimer {
 public:
 	void start();
 	void restart(long);
-	long time();
+	unsigned long time();
 private:
 	long lap;
 };
